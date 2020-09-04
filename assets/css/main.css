@@ -149,7 +149,7 @@
 			bottom: 0;
 			left: 0;
 			background: #a3902a;
-			background: rgba(18, 21, 29, 0.50);
+			background: rgba(18, 21, 29, 0.65);
 			width: 100%;
 			padding: 1em;
 			font-weight: 400;
@@ -383,7 +383,7 @@
 					bottom: 0;
 					left: 0;
 					background: #11141d;
-					background: rgba(18, 21, 29, 0.35);
+					background: rgba(18, 21, 29, 0.55);
 					display: block;
 					width: 100%;
 					line-height: 50px;
