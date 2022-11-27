@@ -2,9 +2,8 @@
 @import url("font-awesome.min.css");
 
 /*
-	Parallelism by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	Designed by Andrew J.Shepherd | plutoneon.com - based on Paradigm Shift by HTML5 UP html5up.net | @ajlkn
+	
 */
 
 /* Reset */
@@ -62,7 +61,7 @@
 		position: relative;
 		background-color: #12151D;
 		color: #999;
-		color: rgba(255, 255, 255, 1);
+		color: rgba(255, 255, 255, 0.7);
 		font-family: 'Source Sans Pro';
 		font-weight: 400;
 	}
@@ -79,8 +78,8 @@
 		}
 
 	a {
-		color: #a3902a;
-		color: rgba(163,144,42,1);
+		color: #fff;
+		color: rgba(255, 255, 255, 0.7);
 		text-decoration: none;
 		-moz-transition: color 0.25s ease-in-out;
 		-webkit-transition: color 0.25s ease-in-out;
@@ -89,18 +88,18 @@
 	}
 
 		a:hover {
-			color: #c70202;
+			color: #ffd700;
 		}
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 400;
-		color: #a3902a;
+		color: #fff;
 		letter-spacing: -0.05em;
 	}
 
 	strong, b {
-		color: #a3902a;
-		color: rgba(255, 255, 255, 0.8);
+		color: #fff;
+		color: rgba(255, 255, 255, 0.85);
 		font-weight: 600;
 	}
 
@@ -122,7 +121,7 @@
 
 			ul.contact li a {
 				opacity: 0.75;
-				color: #a3902a;
+				color: #fff;
 				-moz-transition: opacity 0.25s ease-in-out;
 				-webkit-transition: opacity 0.25s ease-in-out;
 				-ms-transition: opacity 0.25s ease-in-out;
@@ -130,8 +129,8 @@
 			}
 
 				ul.contact li a:hover {
-					opacity: 1;
-					color: #c70202;
+					opacity: 0.95;
+					color: #ffd700;
 				}
 
 /* Item */
@@ -139,8 +138,8 @@
 	.item.thumb {
 		display: block;
 		position: relative;
-		background: #a3902a;
-		background: rgba(112,112,112,0.5);
+		background: #1a1f2c;
+		background: rgba(255, 255, 255, 0.25);
 		cursor: default;
 	}
 
@@ -148,8 +147,8 @@
 			position: absolute;
 			bottom: 0;
 			left: 0;
-			background: #a3902a;
-			background: rgba(18, 21, 29, 0.65);
+			background: #1a1f2c;
+			background: rgba(18, 21, 29, 0.45);
 			width: 100%;
 			padding: 1em;
 			font-weight: 400;
@@ -195,8 +194,8 @@
 
 	#header {
 		position: relative;
-		background: #707070 url("images/loader.gif");
-		color: #a3902a;
+		background: #d64760 url("images/loader.gif");
+		color: #fff;
 		cursor: default;
 	}
 
@@ -219,12 +218,11 @@
 				background-image: url("images/overlay.png"), -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../../images/bg.jpg");
 				background-image: url("images/overlay.png"), -ms-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../../images/bg.jpg");
 				background-image: url("images/overlay.png"), linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../../images/bg.jpg");
-				background-position: center center;
-				background-attachment: fixed;
-				background-size: cover;
-				background-repeat: no-repeat;
+				background-position: top left, bottom left, auto;
+				background-size: auto, 100% 100%, cover;
+				background-repeat: repeat, no-repeat, auto;
 				padding: 0;
-				font-size: 14pt;
+				font-size: 12pt;
 				line-height: 1.75em;
 				height: 100%;
 				min-height: 450px;
@@ -346,8 +344,8 @@
 					display: inline-block;
 					margin-left: 1em;
 					padding-left: 1em;
-					border-left: solid 1px #a3902a;
-					border-left-color: rgba(163,144,42,0.75);
+					border-left: solid 1px #333;
+					border-left-color: rgba(255, 255, 255, 0.75);
 					line-height: 1em;
 				}
 
@@ -382,14 +380,14 @@
 					position: absolute;
 					bottom: 0;
 					left: 0;
-					background: #11141d;
-					background: rgba(18, 21, 29, 0.55);
+					background: #1a1f2c;
+					background: rgba(18, 21, 29, 0.45);
 					display: block;
 					width: 100%;
 					line-height: 50px;
 					text-align: center;
 					font-size: 1.25em;
-					color: #a3902a;
+					color: #fff;
 				}
 
 				.poptrox-popup .nav-next, .poptrox-popup .nav-previous, .poptrox-popup .closer {
@@ -400,7 +398,7 @@
 					-webkit-transition: opacity 0.25s ease-in-out;
 					-ms-transition: opacity 0.25s ease-in-out;
 					transition: opacity 0.25s ease-in-out;
-					opacity: 0.65;
+					opacity: 0.75;
 				}
 
 					.poptrox-popup .nav-next:hover, .poptrox-popup .nav-previous:hover, .poptrox-popup .closer:hover {
@@ -453,8 +451,8 @@
 					top: -70px;
 					right: -70px;
 					cursor: pointer;
-					border-radius: 30px;
-					box-shadow: 0px 0px 0px 1px #a3902a;
+					border-radius: 40px;
+					box-shadow: 0px 0px 0px 1px #fff;
 				}
 
 					.poptrox-popup .closer:before {
@@ -541,7 +539,7 @@
 		/* Main */
 
 			#main {
-				overflow: hidden;
+				overflow: visible;
 			}
 
 		/* Footer */
@@ -570,7 +568,7 @@
 			.poptrox-popup {
 				background: #0a0f1c;
 				box-shadow: 0px 0px 20px 10px rgba(8, 11, 19, 0.35);
-				border: solid 2.5px #a3902a;
+				border: solid 2.5px #fff;
 				-moz-box-sizing: content-box;
 				-webkit-box-sizing: content-box;
 				-ms-box-sizing: content-box;
