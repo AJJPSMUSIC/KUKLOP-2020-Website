@@ -1,7 +1,5 @@
 /*
-	Parallelism by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+Designed by Andrew J.Shepherd | plutoneon.com
 */
 
 var parallelism = (function($) { var _ = {
@@ -14,7 +12,7 @@ var parallelism = (function($) { var _ = {
 			settings: {
 
 				// Popup overlay color.
-					popupOverlayColor: '#706f67',
+					popupOverlayColor: '#c0c0c0',
 
 				// Popup overlay opacity.
 					popupOverlayOpacity: 0.45,
@@ -30,37 +28,37 @@ var parallelism = (function($) { var _ = {
 						centerVertically: true,
 
 					// Delay (in ms) before showing the reel.
-						introDelay: 100,
+						introDelay: 500,
 
 					// Speed (in ms) at which to fade in reel.
-						introSpeed: 850,
+						introSpeed: 750,
 
 					// Height (in px) of items.
-						itemHeight: 260,
+						itemHeight: 285,
 
 					// Default width (in px) of width.
-						itemWidth: 200,
+						itemWidth: 350,
 
 					// Margin (in px) to preserve at the bottom of the viewport.
-						marginBottom: 30,
+						marginBottom: 0,
 
 					// Margin (in px) to preserve at the top of the viewport.
 						marginTop: 0,
 
 					// Nudge the reel by this value (in px) after it's been vertically centered.
-						verticalNudge: -115,
+						verticalNudge: -50,
 
 					// Maximum number of rows.
-						maxRows: 4,
+						maxRows: 3,
 
 					// Minimum number of rows.
-						minRows: 2,
+						minRows: 1,
 
 					// Padding (in px) between items (0 = no padding).
 						padding: 5,
 
 					// Padding color.
-						paddingColor: '#706f67',
+						paddingColor: '#000000',
 
 					// If true, reel scroll will reset on page refresh.
 						resetScroll: true,
@@ -84,7 +82,7 @@ var parallelism = (function($) { var _ = {
 						scrollZoneWidth: 40,
 
 					// Delay (in ms) before showing thumbnails.
-						thumbDelay: 300,
+						thumbDelay: 1200,
 
 					// Spread (in ms) to randomly stagger thumbnails (0 = don't stagger).
 						thumbDelaySpread: 1500,
